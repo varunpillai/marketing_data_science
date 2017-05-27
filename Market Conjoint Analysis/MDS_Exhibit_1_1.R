@@ -143,7 +143,7 @@ for(k in seq(along=conjoint.results$ordered.attributes)) {
 
 # plotting of spine chart begins here
 # all graphical output is routed to external pdf file
-pdf(file = "fig_preference_mobile_services_results.pdf", width=8.5, height=11)
+pdf(file = "fig_preference_mobile_services_results2.pdf", width=8.5, height=11)
 spine.chart(conjoint.results)
 dev.off()  # close the graphics output device
 
